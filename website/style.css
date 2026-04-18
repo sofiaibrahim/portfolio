@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+/* HERO SECTION */
+.hero {
+  background: linear-gradient(135deg, #6366f1, #3b82f6);
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: white;
+  color: #3b82f6;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+  padding: 50px 20px;
+}
+
+/* CARDS */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 15px;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background: #3b82f6;
+}
+
+/* CONTACT */
+.contact {
+  background: #111827;
+}
+
+/* FOOTER */
+footer {
+  background: black;
+  padding: 10px;
+  font-size: 14px;
+}
